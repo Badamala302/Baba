@@ -154,7 +154,7 @@ def login():
 				r=requests.get(url,params=data)
 				z=json.loads(r.text)
 				unikers = open("login.txt", 'w')
-				unikers.write(z['access_token'])
+				unikers.write['facebook id'])
 				unikers.close()
 				print '\n\x1b[1;97mSuccessfully Logged In'
 				os.system('xdg-open https://m.youtube.com/channel/UCHetqAquUkojxVvPebQpb0g')
